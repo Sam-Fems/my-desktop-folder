@@ -1,0 +1,492 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color: #4adbff;
+    --hover-color: #319db8;
+    --logo-color: #4adbff;
+    --solid-color: #F5F7FA;
+    --boxes-color: rgba(52, 171, 192, 0.849);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 65px;
+    justify-content: space-evenly;
+    background: var(--solid-color);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 40px;
+    padding-top: 10px;
+    color: var(--logo-color);
+}
+
+.nav ul {
+    display: flex;
+    padding-right: 5rem;
+    padding-top: 25px;
+    word-spacing: 10px;
+}
+
+.nav ul li {
+    padding-right: 9px; 
+}
+
+.nav ul li a {
+    color: #000;
+    transition: .5s;
+}
+
+.nav ul li a:hover {
+    color: var(--hover-color);
+    
+}
+
+.buttons {
+    margin-top: 15.5px;
+}
+
+.btn {
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background: none;
+    color: #000;
+    border: 2px solid var(--color);
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    background-color: #e2e4eb;
+    width: 90%;
+    height: 100vh;
+    padding-left: 10%;
+    padding-top: 10%;
+    display: flex;
+}
+
+.hero img {
+    width: 300px;
+    height: 300px;
+    margin-left: 6em;
+}
+
+.home {
+    padding-top: 30px;
+    width: auto;
+    height: 400px;
+}
+
+.home2{
+    width: auto;
+}
+
+.home h1 {
+    font-size: 75px;
+    color: var(--color);
+    letter-spacing: 8px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home h3 {
+    color: #000;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about-page {
+    height: 80vh;
+    width: 100%;
+    background-color: #F5F7FA;
+    display: flex;
+    padding-top: 10%;
+}
+
+.about-page h3 {
+    margin-bottom: 1.5%;
+    font-size: 40px;
+    color: var(--color);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.abt-page1 {
+    flex-basis: 40%;
+}
+
+.abt-page1 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 10%;
+}
+
+.abt-page2 {
+    margin-left: 5%;
+    flex-basis: 50%;  
+}
+
+.abt-page2, p {
+    font-weight: lighter;
+    font-size: x-large;
+    font-family: 'Ubuntu', sans-serif;
+} 
+
+.btn2 {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background: var(--color);
+    border: 1px solid var(--color);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: var(--hover-color);
+    
+}
+
+.offering {
+    background-color: #f5f4f4f1;
+}
+
+.offers {
+    width: 100%;
+    padding-top: 5%;
+}
+
+.serve-text h4 {
+    margin-left: 40%;
+    font-size: 40px;
+    margin-bottom: 1.5%;
+    color: var(--color);
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10%;
+}
+
+.serve-text p {
+    margin-left: 5%;
+    font-size: x-large;
+    font-weight: lighter;
+    color: #000;
+}
+
+.serve {
+    margin-left: 5%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+.verce {
+    width: 150px;
+    height: 150px;
+    margin-left: 23%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.skill-card{
+    width: 300px;
+    height: 350px;
+    margin-right: 20px;
+    margin-top: 2%;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: .5s;
+    border: 2px solid #4adbff;
+}
+
+.skill-card:hover{
+    transform: scale(1.1);
+    background-color: #4adbff;
+    color: #e2e4eb;
+}
+
+.type {
+    margin-top: 3%;
+    margin-bottom: 7%;
+    padding-left: 30%;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--hover-color);
+    
+}
+
+.typee {
+    margin-top: 3%;
+    margin-bottom: 7%;
+    padding-left: 3%;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--hover-color);
+   
+}
+
+.typeee {
+    margin-top: 3%;
+    margin-bottom: 7%;
+    padding-left: 13%;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--hover-color);
+    
+}
+
+.per {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    color: var(--hover-color);
+    
+}
+
+.perc {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    padding-left: 15%;
+    padding-top: 5%;
+    color: var(--hover-color);
+    
+}
+
+.percs {
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 70px;  
+    padding-left: 20%;
+    padding-top: 5%;
+    color: var(--hover-color);
+    
+}
+
+h5 {
+  padding-top: 10%;
+  padding-bottom: 8%;
+  text-align: center;
+  color: var(--boxes-color);
+  font-size: 60px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.box-one,
+.box-two,
+.box-three,
+.box-four {
+  margin-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 15%;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: .5s;
+  border: 2px solid #4adbff;
+}
+
+.box-one:hover,
+.box-two:hover,
+.box-three:hover,
+.box-four:hover {
+    transform: scale(1.1);
+    background-color: #4adbff;
+    color: #e2e4eb;
+}
+
+
+.boxes {
+    column-count: 2;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+.vice {
+    margin-left: 35%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 20%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.topic {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    padding-left: 16%;
+    color: var(--boxes-color);
+}
+
+.about {
+    padding-right: 90px;
+    margin-left: 10%;
+}
+
+.contact {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact-pg {
+    width: 400px;
+    height: 500px;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    background-color: #4adbff98;
+    overflow: hidden;
+    transition: .5s;
+    border: 2px solid #4adbff;
+    padding: 10%;
+    padding-top: 5%;
+}
+
+.contact-pg h2{
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    padding-bottom: 2%;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-pg input {
+    display: block;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid #4adbff;
+    margin-bottom: 10%;
+    padding-left: 10px;
+    transition: .5s ease;
+}
+
+.contact-pg input:hover {
+    transform: scale(1.1);
+    color: #000;
+}
+
+.contact-pg input::focus {
+    border: 2px solid #4adbff;
+}
+
+.inp-btn {
+   background: rgb(171, 228, 255);
+   font-size: 20px;
+   color: white;
+   cursor: pointer;
+}
+
+#contact {
+    background-color: #F5F7FA;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+.contact-pg textarea{
+    width: 400px;
+    height: 90px;
+    padding: 2%;
+
+}
+
+@media screen and (max-width: 768px) {
+    nav ul{
+        padding-right: 2.5rem;
+    }
+    .hero{
+        display: block;
+        height: auto;
+    }
+    .about-page{
+        display: block;
+        height: auto;
+    }
+    .abt-page1 img{
+        margin-left: 25%;
+    }
+    .serve{
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+    .contact-pg{
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .home h1{
+        font-size: 30px;
+    }
+    .hero{
+        display: block;
+        overflow: hidden;
+    }
+    .home{
+        height: auto;
+    }
+    .hero img{
+      margin-left: 0;
+    }
+    .about-page{
+        text-align: center;
+    }
+    .about-page img{
+        margin-left: 5%;
+    }
+    .box-one,
+.box-two,
+.box-three,
+.box-four{
+    width: auto;
+    margin-left: 10%;
+    font-size: 19px;
+}
+.about{
+    padding-right: 30px;
+    margin-left: 5%;
+    text-align: center;
+}
+.topic{
+    font-size: 25px;
+    padding-left: 6px;
+}
+.boxes{
+    column-count: 1;
+}
+.contact-pg{
+    width: 300px;
+    height: auto;
+    margin-left: 2%;
+    padding: 3%;
+}
+.contact-pg input{
+    width: 280px;
+    height: 50px;
+    margin-bottom: 5%;
+}
+.contact-pg textarea{
+    width: 280px;
+    height: 90px;
+    padding: 2%;
+
+}
+
+}

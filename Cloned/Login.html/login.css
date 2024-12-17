@@ -1,0 +1,95 @@
+* {
+    list-style: none;
+}
+
+.header {
+    text-align: center;
+    font-size: 80px;
+    color: #EAEAEA;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+.login {
+    width: 750px;
+    height: 600px;
+    margin-top: 2%;
+    margin-left: 20%;
+    padding-right: 5%;
+    border: 2px solid #A3A3A3;
+    border-radius: 10px;
+    background-color: #1C2833;
+}
+
+label {
+    padding-left: 32%;
+    font-size: 25px;
+    color:#BFC9CA;
+}
+
+input {
+    display: block;
+    justify-content: center;
+    border: 1px solid rgba(250, 235, 215, 0.753);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 350px;
+    transition: .5s ease;
+    cursor: text;
+}
+
+input:hover {
+    transform: scale(1.05);
+}
+
+
+button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    height: 50px;
+    width: 350px;
+    border: 2px solid #A3A3A3;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
+    color: #EAEAEA;
+    background-color: #A3A3A3;
+    cursor: pointer;
+    transition: .5s
+}
+
+button:hover {
+    transform: scale(1.05);
+    color: #55777ec0;
+}
+
+#message {
+    margin-top: 2%;
+    color: solid red;
+    font-size: 15px;
+    margin-left: 45%;
+}
+
+
+@media (max-width: 768px) {
+    .login {
+      width: 90%;
+      margin: auto;
+      height: auto;
+    }
+  
+    input, button {
+      width: 80%;
+      margin-left: 10%;
+    }
+  
+    .header {
+      font-size: 50px;
+    }
+  
+    #message {
+      margin-left: 35%;
+    }
+  }
